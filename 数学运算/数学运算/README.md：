@@ -1,0 +1,39 @@
+# 实验2：平方和计算
+
+## 题目要求
+已知a=3，b=5，求sum = a² + b²
+
+## 程序代码
+#include <stdio.h>
+
+int main() {
+    int a = 3, b = 5;
+    int sum = a * a + b * b;
+    printf("a = %d, b = %d\n", a, b);
+    printf("sum = a² + b² = %d\n", sum);
+    return 0;
+}
+
+运行结果
+
+```
+a = 3, b = 5
+sum = a² + b² = 34
+
+学习要点
+
+· 变量定义和初始化
+· 算术运算
+· printf格式化输出
+
+
+**02_数学运算/sum_calculation.c**：
+#include <stdio.h>
+
+int main() {
+    int a = 3, b = 5;
+    int sum = a * a + b * b;
+    printf("a = %d, b = %d\n", a, b);
+    printf("sum = a² + b² = %d\n", sum);
+    return 0;
+}
