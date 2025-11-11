@@ -1,0 +1,22 @@
+# 实验1：第一个C程序
+
+## 题目要求
+在屏幕上输出一串字符
+
+## 程序代码
+```c
+#include <stdio.h>
+
+int main() {
+    printf("Hello, World!\n");
+    printf("这是我的第一个C程序！\n");
+    return 0;
+}
+```
+
+运行结果
+
+```
+Hello, World!
+这是我的第一个C程序！
+```
